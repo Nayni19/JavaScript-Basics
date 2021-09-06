@@ -1,17 +1,10 @@
-// Conditional Statements
-num = 0
-// Even or odd program
-if(typeof num =="number"){
-    if(num===0){
-        console.log('Neither even nor odd');
-    }
-    else if(num%2===0){
-        console.log('Number is Even');
-    }
-    else {
-        console.log('Number is odd');
-    }
-}
-else {
-    console.error('Not a number');
-}
+const element = document.getElementById('select_me')
+console.log(element);
+const element1 = document.getElementsByClassName('heading')
+console.log(element1);
+const element2 = document.getElementsByTagName('h2')
+console.log(element2);
+const element3 = document.querySelector('div#select_me')
+console.log(element3);
+const element4 = document.querySelectorAll('.heading')
+console.log(element4);
