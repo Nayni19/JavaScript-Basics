@@ -1,31 +1,17 @@
-// Arithmetic Operators
-let age = 20
-console.log(age);
+// Comparison operators
+const a = 30
+const b = 8
+const c = 83
 
-const a = 2
-const b = 7
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a**b);
-console.log(b%a);
-console.log("---------------------------------");
-let c = 0
-c++
-console.log(c);
-c += 5
-console.log(c);
+console.log('a > b ',a>b);
+console.log('a < b ',a<b);
+console.log('a == b ',a==b);
+console.log('a == c ',a==c);
+console.log('a >= c ',a>=c);
 
-const d = "hello "
-const e = 55
+console.log('------------------------------');
+const d = '1'
+const e = 1
 
-console.log(d+e);
-
-// Assignment Operators
-let Name = "Nayni"
-let f = 19
-f+=10
-
-console.log(f);
-console.log(typeof f);
+console.log('d==e', d==e);
+console.log('d===e', d===e);
