@@ -1,0 +1,8 @@
+console.log("Hey this is my first piece of Javascript code")
+console.warn("I am a warning")
+console.error("I am an error")
+console.log({name: "Nayni"})
+console.log(true)
+console.log(false)
+console.log(12346)
+console.log("Nayni")
