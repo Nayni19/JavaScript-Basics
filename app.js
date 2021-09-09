@@ -1,33 +1,19 @@
-console.log("Hey this is my first piece of Javascript code")
-console.warn("I am a warning")
-console.error("I am an error")
-console.log({name: "Nayni"})
-console.log(true)
-console.log(false)
-console.log(12346)
-console.log("Nayni")
+// const rock= document.querySelector('#rock')
+// console.log(rock);
 
-// Data Types
-// Primitive(no methods associated) and Non-primitive(methods and functions associated)
+// const paper= document.querySelector('#paper')
+// console.log(paper);
 
-// Primitive Data Types (number, boolean and string)
-var Name = "Nayni";
-console.log(Name);
-// var------> let
-let age = 20.8
-console.log(age);
-console.log(typeof age);
+// const scissor= document.querySelector('#scissor')
+// console.log(scissor);
 
-let brand
-console.log(brand);
-
-//Non Primitive Data Types (array)
-let arr = [1, 2, 3, 4, 5]
-console.log(arr);
-
-{
-    Name: "Nayni";
-    Class: "T23";
-    print_name:()=>{console.log("Nayni")}
+// Function
+function logName(name = "Enter your Name"){
+    console.log(name);
 }
+logName('Nayni Shah');
 
+const add = (a=0, b=0) => {
+    return a+b;
+}
+console.log(add(12,23));
